@@ -28,21 +28,19 @@ This part of the project focuses on scraping LinkedIn profiles based on a specif
    ```bash
    pip install selenium beautifulsoup4 pandas
 Download ChromeDriver and specify its path in the linkedin_scraping_query.py script:
-python
-Copy code
 driver_path = "path/to/chromedriver"
 Usage
 Open linkedin_scraping_query.py and update the following lines with your LinkedIn credentials:
-python
-Copy code
+
 username.send_keys("your_email")  # Replace with your LinkedIn email
 password.send_keys("your_password")  # Replace with your LinkedIn password
+```
+```
 Run the script:
-bash
-Copy code
 python linkedin_scraping_query.py
 After running, the scraped data will be saved to linkedin_scrping_query.csv.
-Important Note
+```
+### Important Note
 LinkedIn has strict policies against automated scraping. This script is for educational purposes only. Please respect LinkedIn's Terms of Service and avoid unauthorized data scraping.
 
 Part 2: LinkedIn Profile Scraping with Streamlit (scraping_using_streamlit)
