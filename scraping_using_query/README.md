@@ -27,7 +27,7 @@ This part adds a user interface using Streamlit, enabling users to enter a searc
 
 ## Setup and Installation
 Install the required libraries:
-    ```bash
+    
 
     pip install requirements.txt
 
@@ -37,8 +37,8 @@ Install the required libraries:
 2.Open linkedin_query_scraping_streamlite.py and update the following lines with your LinkedIn credentials:
     
 Run the Streamlit app:
-    ```bash
     
+
     streamlit run linkedin_query_scraping_streamlite.py
 
 ### Example Queries
