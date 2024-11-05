@@ -28,19 +28,17 @@ This part adds a user interface using Streamlit, enabling users to enter a searc
 ## Setup and Installation
 Install the required libraries:
     ```bash
-    pip install requirements.txt
-Download ChromeDriver and specify its path in linkedin_query_scraping_streamlite.py:
-    ```python
-    
-    driver_path = "path/to/chromedriver"
-    
-Open linkedin_query_scraping_streamlite.py and update the following lines with your LinkedIn credentials:
-    ```python
-    username.send_keys("your_email")  # Replace with your LinkedIn email
-    password.send_keys("your_password")  # Replace with your LinkedIn password
 
+    pip install requirements.txt
+
+1.Download ChromeDriver and specify its path in linkedin_query_scraping_streamlite.py
+
+    
+2.Open linkedin_query_scraping_streamlite.py and update the following lines with your LinkedIn credentials:
+    
 Run the Streamlit app:
     ```bash
+    
     streamlit run linkedin_query_scraping_streamlite.py
 
 ### Example Queries
