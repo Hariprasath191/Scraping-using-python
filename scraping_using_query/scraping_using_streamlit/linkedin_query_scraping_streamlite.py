@@ -29,8 +29,8 @@ def login_to_linkedin():
     password = driver.find_element(By.ID, "password")
     
     # Replace these with your LinkedIn login credentials
-    username.send_keys("shari19032005@gmail.com")  # Replace with your email
-    password.send_keys("19Hari@123")            # Replace with your password
+    username.send_keys("...........@gmail.com")  # Replace with your email
+    password.send_keys("*********************")            # Replace with your password
     
     # Submit login form
     driver.find_element(By.XPATH, "//button[@type='submit']").click()
