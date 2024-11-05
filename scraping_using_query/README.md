@@ -31,10 +31,11 @@ Install the required libraries:
 
     pip install requirements.txt
 
-1.Download ChromeDriver and specify its path in linkedin_query_scraping_streamlite.py
+1.Intall the required libraries inside the virtual environment
 
+2.Download ChromeDriver and specify its path in linkedin_query_scraping_streamlite.py
     
-2.Open linkedin_query_scraping_streamlite.py and update the following lines with your LinkedIn credentials:
+3.Open linkedin_query_scraping_streamlite.py and update your linkedin id and your password 
     
 Run the Streamlit app:
     
