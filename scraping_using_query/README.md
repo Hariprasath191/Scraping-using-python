@@ -22,7 +22,7 @@ This part of the project focuses on scraping LinkedIn profiles based on a specif
 - **BeautifulSoup** for HTML parsing
 - **ChromeDriver**: Ensure the path to ChromeDriver is correctly set in the script.
 
----
+
 
 ### Setup and Installation
 
